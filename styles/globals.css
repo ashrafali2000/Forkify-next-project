@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30;
+  margin-top: 30px;
+}
+.container0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30;
+}
+.navContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.myDetailCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ background-color: "#fff";
+}
+.backGroundBookMark{
+  width: 45px;
+  height: 45px;
+  background-color: rgb(229, 153, 98);
+  border-radius: 50%;
+  transition: ease-out 0.9s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backGroundBookMark:hover{
+  transform: scale(1.2);
+}
+.detailsRecipe{
+  background-color: rgb(248, 222, 200);
+  width: 735px;
+  padding-bottom: 80px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.bothReciepe{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.flexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* width: 150px; */
+  padding: 20px;
+}
+.footer{
+  width: 735px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.footer > p{
+  margin-top: -10px;
+}
+.btn{
+  width: 150px;
+  height: 70px;
+  color: "#fff";
+  background-color: rgb(243, 173, 113);
+  font-size: 15px;
+}
+.btn:hover{
+  color: red;
+  background-color: rgb(240, 156, 97);
+}
+.myDropdown{
+height: 400px;  
+}
+/* .myCards:hover{
+  boxShadow: " 2px 5px 16px 3px #999"
+} */
